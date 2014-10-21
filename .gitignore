@@ -1,2 +1,4 @@
 sageTransTest.xcodeproj/project.xcworkspace/
 *~
+*.xcuserstate
+xcuserdata
