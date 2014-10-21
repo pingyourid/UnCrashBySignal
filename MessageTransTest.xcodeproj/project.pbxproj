@@ -16,7 +16,7 @@
 		775CBDBD19F5661B00070E2A /* MessageTransTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CBDBC19F5661B00070E2A /* MessageTransTestTests.m */; };
 		775CBDC819F5663400070E2A /* AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CBDC719F5663400070E2A /* AAA.m */; };
 		775CBDCB19F566B100070E2A /* BBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CBDCA19F566B100070E2A /* BBB.m */; };
-		775CBDCE19F56B9900070E2A /* NSObject+MessageTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CBDCD19F56B9900070E2A /* NSObject+MessageTrans.m */; };
+		77C58A9219F5FDAC000A5DDC /* NSObject+MessageTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C58A9119F5FDAC000A5DDC /* NSObject+MessageTrans.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		775CBDC719F5663400070E2A /* AAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
 		775CBDC919F566B100070E2A /* BBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBB.h; sourceTree = "<group>"; };
 		775CBDCA19F566B100070E2A /* BBB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBB.m; sourceTree = "<group>"; };
-		775CBDCC19F56B9900070E2A /* NSObject+MessageTrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MessageTrans.h"; sourceTree = "<group>"; };
-		775CBDCD19F56B9900070E2A /* NSObject+MessageTrans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MessageTrans.m"; sourceTree = "<group>"; };
+		77C58A9019F5FDAC000A5DDC /* NSObject+MessageTrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MessageTrans.h"; sourceTree = "<group>"; };
+		77C58A9119F5FDAC000A5DDC /* NSObject+MessageTrans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MessageTrans.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,7 @@
 		775CBD9419F5661B00070E2A = {
 			isa = PBXGroup;
 			children = (
+				77C58A8F19F5FDAC000A5DDC /* MessageTrans */,
 				775CBD9F19F5661B00070E2A /* MessageTransTest */,
 				775CBDB919F5661B00070E2A /* MessageTransTestTests */,
 				775CBD9E19F5661B00070E2A /* Products */,
@@ -98,8 +99,6 @@
 				775CBDC719F5663400070E2A /* AAA.m */,
 				775CBDC919F566B100070E2A /* BBB.h */,
 				775CBDCA19F566B100070E2A /* BBB.m */,
-				775CBDCC19F56B9900070E2A /* NSObject+MessageTrans.h */,
-				775CBDCD19F56B9900070E2A /* NSObject+MessageTrans.m */,
 				775CBDAA19F5661B00070E2A /* Main.storyboard */,
 				775CBDAD19F5661B00070E2A /* Images.xcassets */,
 				775CBDAF19F5661B00070E2A /* LaunchScreen.xib */,
@@ -132,6 +131,15 @@
 				775CBDBB19F5661B00070E2A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C58A8F19F5FDAC000A5DDC /* MessageTrans */ = {
+			isa = PBXGroup;
+			children = (
+				77C58A9019F5FDAC000A5DDC /* NSObject+MessageTrans.h */,
+				77C58A9119F5FDAC000A5DDC /* NSObject+MessageTrans.m */,
+			);
+			path = MessageTrans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +244,8 @@
 			files = (
 				775CBDA919F5661B00070E2A /* ViewController.m in Sources */,
 				775CBDA619F5661B00070E2A /* AppDelegate.m in Sources */,
+				77C58A9219F5FDAC000A5DDC /* NSObject+MessageTrans.m in Sources */,
 				775CBDCB19F566B100070E2A /* BBB.m in Sources */,
-				775CBDCE19F56B9900070E2A /* NSObject+MessageTrans.m in Sources */,
 				775CBDA319F5661B00070E2A /* main.m in Sources */,
 				775CBDC819F5663400070E2A /* AAA.m in Sources */,
 			);
