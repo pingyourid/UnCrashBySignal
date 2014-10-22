@@ -1,4 +1,8 @@
+pay attention!!!!!
+error:don't use this anymore,it will lead crash!!!!!!
+
 a simple class which can prevent application crash due to unrecognized selector.
+
 All code shared,you can use it in anywhere.
 
 The introductin of simple principle:
